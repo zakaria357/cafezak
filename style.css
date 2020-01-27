@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  html,body {
+    font-family: "Open Sans", sans-serif;
+    color: #222;
+  }
+
+  a {
+    color: #222;
+    text-decoration: none;
+  }
+
+  .header {
+    background: black;
+    overflow: auto;
+    line-height: 1.7em;
+  }
+
+  .header nav h1 {
+    float: left;
+    padding: 20px;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  .header nav h1 a {
+    color: white;
+  }
+
+  .header nav ul {
+    float: right;
+    list-style: none;
+  }
+
+  .header nav ul li {
+    float: left;
+  }
+
+  .header nav ul li a {
+    color: white;
+    padding: 20px;
+    display: block;
+  }
+  .section{
+      height: 590px;
+      background-image: url("463204-le-petit-cafe-le-nouveau-salon-de-the-de-la-grande-epicerie-de-paris.jpg");
+      background-size: cover;
+  }
