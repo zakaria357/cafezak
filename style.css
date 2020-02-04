@@ -1,53 +1,107 @@
-* {
-    margin: 0;
-    padding: 0;
+.div1, .div2{
+    width: 150px;
+    height: 150px;
+    color: chocolate;
+    
+}
+
+.div1{
+    background-color: aqua;
+    display: none;
+
+
+}
+.div2{
+    background-color: black;
+    visibility: hidden;
+}
+
+.boite{
+
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: brown;
+   
+}
+#relatif2{
+position: relative;
+
+top: 30px;
+border: 1px black;
+
+}
+#relatif4{
+    position: relative;
+    
+    top: 30px;
+    left:-10px;
+    border: 1px black;
+
+}
+#absolute{
+    position: absolute;
+    top: 150px;
+    border: black solid 1px;
+}
+#absolute2{
+    position: absolute;
+    top: 10px;
+    border: 1px black solid;
+}
+.container{
+    position: absolute;
+    height: 200px;
+    width: 500px;
     box-sizing: border-box;
-  }
+    border: red solid 5px;
+}
+#fixed{
+    position: fixed;
+    border: solid black 1px;
+    top:20px ;
+    left:50px ;
 
+}
+#sticky{
+    position: sticky;
+    border: black 1px solid;
+    top: 20px;
+    left: 50px;
 
-  html,body {
-    font-family: "Open Sans", sans-serif;
-    color: #222;
-  }
+}
+#z1{
+    z-index:400;
+    height: 50px;
+    width: 60px;
+    position: relative;
+    display: inline-block;
+    top: 400px;
+    background-color: darkgreen;
+}
+#z2{
+    z-index: 500;
+    height: 100px;
+    width: 80px;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: ;
+    background-color: blue;
+}
+#z3{
+    z-index:600 ;
+    display: inline-block;
+    height: ;
+    position: relative;
+    top:200px;
+    background-color: coral;
 
-  a {
-    color: #222;
-    text-decoration: none;
-  }
-
-  .header {
-    background: black;
-    overflow: auto;
-    line-height: 1.7em;
-  }
-
-  .header nav h1 {
-    float: left;
-    padding: 20px;
-    margin-bottom: 0;
-    color: white;
-  }
-
-  .header nav h1 a {
-    color: white;
-  }
-
-  .header nav ul {
-    float: right;
-    list-style: none;
-  }
-
-  .header nav ul li {
-    float: left;
-  }
-
-  .header nav ul li a {
-    color: white;
-    padding: 20px;
-    display: block;
-  }
-  .section{
-      height: 590px;
-      background-image: url("463204-le-petit-cafe-le-nouveau-salon-de-the-de-la-grande-epicerie-de-paris.jpg");
-      background-size: cover;
-  }
+}
+#z4{
+    z-index: 700;
+    display: inline-block;
+    top: 300px;
+    background-color: darkgoldenrod;
+}

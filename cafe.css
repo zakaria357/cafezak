@@ -1,0 +1,158 @@
+
+.menu{
+    font-size: 20px;
+    display: inline;
+    padding: 15px;
+   
+}
+.choix1{
+    text-align: right;
+
+}
+h1{
+    position: fixed;
+    display: inline;
+    text-align: left;
+    font-size: 20px;
+
+}
+header{
+    background-color:black;
+    color: white;
+    list-style-type:none;
+    font-family: 'Courier New', Courier,;
+    padding: 1px;
+    height: 10%;
+    widows: 10%;
+    
+}
+.cafe{
+    background-attachment: fixed;
+}
+.img1{
+    width:100%;
+    position: relative;
+    z-index: 1;
+
+    
+}
+.bloc1{
+   position: absolute;
+   z-index: 2;
+   color:white;
+   text-align: center;
+   padding: 10px;
+   font-size: 25px;
+   top: 250px;
+
+}
+.p2{
+    width: 50%;
+    float: left;
+    display: inline;
+
+}
+.bloc2{
+    overflow: hidden;
+    text-align: center;
+    padding: 100px;
+
+}
+.img2{
+    width:100%;
+    position: relative;
+    
+}
+.bloc3{
+    text-align: center;
+    
+}
+button{
+    background-color:white;
+    border-radius: 50px ;
+    color:black ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    
+  }
+.button2{
+    background-color: black;
+    color: white;
+
+  }
+.icone{
+    height: 50px;
+    width: 50px;
+
+}
+.icone2{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+
+  }
+footer{
+    background-color: black;
+    text-align: center;
+    width:100%;
+    color: blanchedalmond;
+    height:40px;
+   
+}
+.menu2{
+    text-decoration: none;
+    color: white;
+
+}
+.maps{
+    width: 40%;
+    padding: 10%;
+    position: relative;
+    
+}
+
+.texte {
+    position: relative;
+    display: inline-block;
+    bottom: 300px;
+
+}
+#nom{
+    padding-top: 10px;
+
+}
+#email{
+    padding-top: 10px;
+
+}
+.button3{
+    color: white;
+    background-color: black;
+    font-size: 150%;
+    border-radius: 500px;
+    
+}
+form{
+    text-align: center;
+    width: 100%; 
+    padding: 12px; 
+
+    border-radius: 4px;  
+    margin-top: 122px; 
+    margin-bottom: 126px; 
+  
+}
+.textoff{
+    font-size: 50px;
+    text-align: center;
+    
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+    font-size: 100%;
+  }
